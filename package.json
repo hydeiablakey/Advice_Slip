@@ -1,0 +1,8 @@
+{
+  "name": "Advice_Slip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hydeiablakey/Advice_Slip.git",
+  "author": "Hydeia <blakeyhydeia@gmail.com>",
+  "license": "MIT"
+}
