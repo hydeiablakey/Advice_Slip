@@ -10,6 +10,6 @@
 cd /desktop
 git clone git@github.com:hydeiablakey/Advice_Slip.git
 cd /Advice_Slip
-yarn add parcel --save-dev
+yarn add
 yarn start (works only if you have yarn installed)
 ```
