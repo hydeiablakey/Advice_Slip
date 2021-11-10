@@ -1,0 +1,49 @@
+:root {
+    --mainColor: #22577A; 
+    --secondaryColor: #38A3A5;
+    --thirdColor: #57CC99;
+    --fourthColor: #80ED99; 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+#navBar {
+    border: 1px solid var(--secondaryColor);
+    padding: 5px;
+    background-color: var(--mainColor); 
+
+}
+
+#footer {
+    border: 1px solid black;
+    height: 40px;
+    background-color: var(--mainColor);
+
+    
+
+}
+
+.appContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+.mainContent {
+      flex: 1; 
+      padding: 5px;
+      text-align: center;
+}
+
+#adviceBtn {
+    color: black; 
+    /* height: 30px;
+    background-color: var(--secondaryColor);
+    border: 4px solid var(--thirdColor); */
+}
