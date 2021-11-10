@@ -11,6 +11,14 @@ export const createAdvice = (advice) => {
 
 }
 
+export const clearAdvice = () => {
+    const results = document.getElementById('msgResults');
+
+    while (results.firstChild) {
+        results.firstChild.remove();
+    }
+}
+
 // export const setMessage = (msg) => {
 //     document.getElementById('errorMsg').textContent = msg; 
 // }
