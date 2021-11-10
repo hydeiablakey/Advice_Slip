@@ -10,7 +10,6 @@ import { createAdvice, clearAdvice} from "./ui.js"
         generateAdvice()
         .then((response) => {
                 createAdvice(response.data.slip.advice)
-
         })
         .catch((error) =>{
             console.log(error + ' error'); 

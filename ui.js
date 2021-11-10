@@ -4,7 +4,7 @@ export const createAdvice = (advice) => {
     let paragraphEle = document.createElement("p");
     paragraphEle.classList.add('adviceStyle');
 
-    paragraphEle.innerHTML = `${advice}`; 
+    paragraphEle.innerHTML = `‟${advice}”`; 
 
     const messageContent = document.getElementById('msgResults');
     messageContent.append(paragraphEle); 
